@@ -47,5 +47,16 @@ def calcCombination(n, r):
     
 def calculator(order):
     answer = 0
-    '''[1]'''
+    
+    if order == calcCircleArea :
+        calcCircleArea()
+    elif order == calcLog:
+            calcLog()
+    elif order == calSin :
+            calSin()
+    elif order == calcFactorial:
+            calcFactorial()
+    elif order == calcCombination:
+            calcCombination()
+
     return answer
