@@ -27,6 +27,12 @@ def intervention(queue):
 def pascal(n):
     answer = list()
     # your code
+    '''
+    n!/r!*(n-r)!
+    n = 1
+    for i in range(1, n):
+        n *= i
+    '''
     return answer
 
 # 문제 3번
